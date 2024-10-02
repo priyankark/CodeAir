@@ -3,11 +3,14 @@
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Installation](#installation)
-3. [Getting Started](#getting-started)
-4. [Features](#features)
-5. [Using CodeAir](#using-codeair)
-6. [Command Reference](#command-reference)
-7. [Troubleshooting](#troubleshooting)
+3. [Configuration](#configuration)
+4. [Getting Started](#getting-started)
+5. [Features](#features)
+6. [Using CodeAir](#using-codeair)
+7. [Command Reference](#command-reference)
+8. [Security Considerations](#security-considerations)
+9. [Troubleshooting](#troubleshooting)
+10. [Contributing](#contributing)
 
 ## Introduction
 
@@ -20,6 +23,23 @@ Welcome to CodeAir, your intelligent coding companion for Visual Studio Code! Co
 3. Search for "CodeAir"
 4. Click "Install"
 5. Reload VS Code when prompted
+
+## Configuration
+
+### Setting up the OpenAI API Key
+
+1. Obtain an API key from OpenAI (https://openai.com/)
+2. In VS Code, open the Command Palette (Ctrl+Shift+P or Cmd+Shift+P)
+3. Type "CodeAir: Open Webview" and select it
+4. In the CodeAir interface, enter your API key in the "OpenAI API Key" field
+5. Click "Save Key"
+
+### Customizing the Port (Optional)
+
+1. Go to File > Preferences > Settings (Ctrl+, or Cmd+,)
+2. Search for "CodeAir"
+3. Find the "Port" setting and change it to your desired port number
+4. The default port is 5000
 
 ## Getting Started
 
@@ -35,6 +55,9 @@ Welcome to CodeAir, your intelligent coding companion for Visual Studio Code! Co
 - **Image Analysis**: Upload images for text extraction or analysis
 - **Smart Commands**: Control VS Code using natural language
 - **Screen Capture**: Take and analyze screenshots of your development environment
+- **Custom Font Support**: Utilize custom fonts in your development environment
+- **Light and Dark Mode**: Automatically adjusts to your VS Code theme
+- **Animations**: Includes animated components for a dynamic interface
 
 ## Using CodeAir
 
@@ -48,6 +71,7 @@ Welcome to CodeAir, your intelligent coding companion for Visual Studio Code! Co
 1. Connect to the CodeAir server from your device
 2. Send any file through the WebSocket connection
 3. The file will appear in your VS Code workspace under the "CodeAir" folder
+4. For images, CodeAir supports @2x and @3x suffixes for different screen densities
 
 ### Using AI Chat
 
@@ -69,14 +93,23 @@ Type commands in the chat input to control VS Code. For example:
 2. CodeAir will capture and display your current screen
 3. You can then ask the AI to analyze the screenshot
 
+### Working with Images
+
+1. Upload an image file using the file transfer method
+2. CodeAir will automatically transcribe any text found in the image
+3. The transcribed text will appear in the "Transcription" section of the interface
+4. You can copy the transcription to the clipboard or add it to the current file
+
 ## Command Reference
 
+Extension Commands:
 - `CodeAir: Start CodeAir Server`: Starts the CodeAir server
 - `CodeAir: Stop CodeAir Server`: Stops the CodeAir server
 - `CodeAir: Open CodeAir Webview`: Opens the CodeAir interface
 
-Chat-based commands:
+Chat-based Commands:
 - `type [text]`: Types the specified text
+- `type [text] and enter`: Types the text and presses Enter
 - `keytap [key]`: Simulates pressing a key (e.g., enter, tab, escape)
 - `go to line [number]`: Moves to a specific line
 - `open file [filename]`: Opens a file
@@ -84,13 +117,43 @@ Chat-based commands:
 - `replace [old] with [new]`: Replaces text
 - `get screenshot`: Captures a screenshot
 
+VS Code Commands (examples):
+- `Toggle Zen Mode`: Enters or exits Zen Mode
+- `Format Document`: Formats the current document
+- `Toggle Line Comment`: Comments or uncomments the selected lines
+- `Rename Symbol`: Initiates renaming of a symbol
+- `Go to Definition`: Navigates to the definition of a symbol
+- `Find All References`: Finds all references of a symbol
+
+## Security Considerations
+
+- The CodeAir server operates on your local network. Use caution when using it on public networks.
+- Your OpenAI API key is stored locally. Never share this key or commit it to version control.
+- Be mindful when executing commands from external devices, as they have control over your VS Code instance.
+- Regularly update CodeAir and VS Code to ensure you have the latest security patches.
+- Review files received through CodeAir before opening or executing them.
+
 ## Troubleshooting
 
-- **Can't start the server**: Make sure no other application is using the same port
-- **Can't connect from other devices**: Ensure all devices are on the same network
-- **AI features not working**: Check if you've entered a valid OpenAI API key in settings
-- **File transfer issues**: Verify your WebSocket client is correctly configured
+- **Can't start the server**: Make sure no other application is using the same port. Try changing the port in settings.
+- **Can't connect from other devices**: Ensure all devices are on the same network. Check if any firewall is blocking the connection.
+- **AI features not working**: Verify that you've entered a valid OpenAI API key in the settings.
+- **File transfer issues**: Check if your WebSocket client is correctly configured to connect to the CodeAir server address.
+- **Extension not loading**: Try uninstalling and reinstalling the extension. Ensure your VS Code is up to date.
 
-For more assistance, please check our GitHub repository or reach out to our support team.
+If you encounter persistent issues, please check our GitHub repository for known issues or to report a new one.
 
-Happy coding with CodeAir!
+## Contributing
+
+We welcome contributions to CodeAir! Here's how you can help:
+
+1. Fork the repository on GitHub
+2. Create a new branch for your feature or bug fix
+3. Commit your changes with clear, descriptive messages
+4. Push the branch and open a pull request
+
+Please ensure your code adheres to the existing style and passes all tests.
+
+For major changes, please open an issue first to discuss the proposed changes.
+
+Thank you for using CodeAir - happy coding!
