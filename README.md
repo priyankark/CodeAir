@@ -1,4 +1,4 @@
-# CodeAir: Remote Control VS Code using your smartphone!
+# CodeAir: Smartphone powered Remote Control for VS Code
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -26,8 +26,7 @@ CodeAir is your intelligent smpartphone companion for Visual Studio Code! CodeAi
 5. Reload VS Code when prompted
 
 ### Android App
-Download the "CodeAir" app from the Android Play Store.
-(Current Status: Yet to be published)
+Download the "CodeAir" app from the Android Play Store from [Google Play Store link](https://play.google.com/store/apps/details?id=com.codeair&hl=en)
 
 ## Demo
 Check out this demo to understand how to use CodeAir: [CodeAir YouTube Demo](https://www.youtube.com/watch?v=DRAhUfEvJDs&t=167s)
@@ -161,5 +160,9 @@ We welcome contributions to CodeAir Documentation! Here's how you can help:
 Please ensure your code adheres to the existing style and passes all tests.
 
 For major changes, please open an issue first to discuss the proposed changes.
+
+## Support
+- Please raise issues on the associated GitHub repo for triaging.
+- For urgent requests, you may email the developer at priyankar.kumar98@gmail.com
 
 Thank you for using CodeAir - happy coding!
