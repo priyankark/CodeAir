@@ -1,4 +1,4 @@
-# CodeAir: AirDrop, but for VS Code
+# CodeAir: Remote Control for VS Code using your smartphone!
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -18,11 +18,19 @@ CodeAir is your intelligent smpartphone companion for Visual Studio Code! CodeAi
 
 ## Installation
 
+### VS Code Extension
 1. Open Visual Studio Code
 2. Go to the Extensions view (Ctrl+Shift+X or Cmd+Shift+X)
 3. Search for "CodeAir"
 4. Click "Install"
 5. Reload VS Code when prompted
+
+### Android App
+Download the "CodeAir" app from the Android Play Store.
+(Current Status: Yet to be published)
+
+## Demo
+Check out this demo to understand how to use CodeAir: [codeair.app](https://www.youtube.com/watch?v=DRAhUfEvJDs&t=167s)
 
 ## Configuration
 
