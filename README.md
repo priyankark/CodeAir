@@ -14,7 +14,7 @@
 
 ## Introduction
 
-Welcome to CodeAir, your intelligent coding companion for Visual Studio Code! CodeAir bridges the gap between your devices and your development environment, offering seamless file transfer, AI-powered coding assistance, and intuitive control over your VS Code instance.
+CodeAir is your intelligent smpartphone companion for Visual Studio Code! CodeAir bridges the gap between your devices and your development environment, offering seamless file transfer, AI-powered coding assistance, and intuitive commanding over your VS Code instance, right from your smartphone!
 
 ## Installation
 
@@ -52,12 +52,9 @@ Welcome to CodeAir, your intelligent coding companion for Visual Studio Code! Co
 
 - **Seamless File Transfer**: Send files from your phone or tablet directly to VS Code
 - **AI-Powered Chat**: Get coding help, explanations, and suggestions
-- **Image Analysis**: Upload images for text extraction or analysis
-- **Smart Commands**: Control VS Code using natural language
-- **Screen Capture**: Take and analyze screenshots of your development environment
-- **Custom Font Support**: Utilize custom fonts in your development environment
-- **Light and Dark Mode**: Automatically adjusts to your VS Code theme
-- **Animations**: Includes animated components for a dynamic interface
+- **Image Analysis**: Send images from your smartphone to the VS Code instance and use AI for text extraction or analysis
+- **Smart Commands**: Control VS Code using natural language. 800+ commands supported.
+- **Screen Capture**: Take screenshots of your development environment and get them sent to your CodeAir app.
 
 ## Using CodeAir
 
@@ -71,12 +68,11 @@ Welcome to CodeAir, your intelligent coding companion for Visual Studio Code! Co
 1. Connect to the CodeAir server from your device
 2. Send any file through the WebSocket connection
 3. The file will appear in your VS Code workspace under the "CodeAir" folder
-4. For images, CodeAir supports @2x and @3x suffixes for different screen densities
 
 ### Using AI Chat
 
 1. In the CodeAir interface, find the "Chat with AI" section
-2. Type your question or request
+2. Type your question or request related to the recently sent files.
 3. Click "Send" or press Enter
 4. View the AI's response in the interface
 
@@ -86,6 +82,8 @@ Type commands in the chat input to control VS Code. For example:
 - `type Hello, World!`: Types the text in your editor
 - `go to line 42`: Moves the cursor to line 42
 - `search TODO`: Searches for "TODO" in the current file
+- 800+ commands supported (list available at [codeair.app](https://www.codeair.app) ).
+- Request new commands by raising an Issue right here.
 
 ### Capturing Screenshots
 
@@ -145,9 +143,9 @@ If you encounter persistent issues, please check our GitHub repository for known
 
 ## Contributing
 
-We welcome contributions to CodeAir! Here's how you can help:
+We welcome contributions to CodeAir Documentation! Here's how you can help:
 
-1. Fork the repository on GitHub
+1. Fork this repository on GitHub
 2. Create a new branch for your feature or bug fix
 3. Commit your changes with clear, descriptive messages
 4. Push the branch and open a pull request
