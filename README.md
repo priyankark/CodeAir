@@ -14,7 +14,7 @@
 
 ## Introduction
 
-CodeAir is your intelligent smpartphone companion for Visual Studio Code! CodeAir bridges the gap between your devices and your development environment, offering seamless file transfer, AI-powered coding assistance, and intuitive commanding over your VS Code instance, right from your smartphone!
+CodeAir is your intelligent smartphone companion for Visual Studio Code! CodeAir bridges the gap between your devices and your development environment, offering seamless file transfer, AI-powered coding assistance, and intuitive commanding over your VS Code instance, right from your smartphone!
 
 ## Installation
 
