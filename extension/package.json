@@ -1,0 +1,68 @@
+{
+  "name": "codeair-app",
+  "displayName": "CodeAir: Smartphone based Remote Control for VS Code",
+  "description": "Smartphone based Remote Control for VS Code. Control IDE actions, send files and images, get AI assistance and more, right from your smartphone.",
+  "version": "0.0.10",
+  "publisher": "priyankark",
+  "repository": "https://github.com/priyankark/CodeAir",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "AI",
+    "Chat",
+    "Other"
+  ],
+  "icon": "assets/CodeAir.png",
+  "activationEvents": [],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.startCodeAirServer",
+        "title": "Start CodeAir Server"
+      },
+      {
+        "command": "extension.stopCodeAirServer",
+        "title": "Stop CodeAir Server"
+      },
+      {
+        "command": "extension.openCodeAirWebview",
+        "title": "Open CodeAir Webview"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "npm run check-types && node esbuild.js",
+    "check-types": "tsc --noEmit",
+    "watch": "npm-run-all -p watch:*",
+    "watch:esbuild": "node esbuild.js --watch",
+    "watch:tsc": "tsc --noEmit --watch --project tsconfig.json",
+    "vscode:prepublish": "npm run package",
+    "package": "npm run check-types && node esbuild.js --production"
+  },
+  "devDependencies": {
+    "@types/node": "^18",
+    "@types/vscode": "^1.73.0",
+    "@types/ws": "^8.5.12",
+    "@typescript-eslint/eslint-plugin": "^7.14.0",
+    "@typescript-eslint/parser": "^7.14.0",
+    "esbuild": "^0.24.0",
+    "eslint": "^8.26.0",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "@hurdlegroup/robotjs": "^0.12.2",
+    "@types/node-fetch": "^2.6.11",
+    "@types/screenshot-desktop": "^1.12.3",
+    "dotenv": "^16.4.5",
+    "fs-extra": "^11.2.0",
+    "istextorbinary": "^9.5.0",
+    "jimp": "^1.6.0",
+    "node-fetch": "^2.7.0",
+    "openai": "^4.67.0",
+    "screenshot-desktop": "^1.15.0",
+    "ws": "^8.18.0"
+  }
+}

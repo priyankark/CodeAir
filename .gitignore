@@ -1,0 +1,8 @@
+out
+node_modules
+.vscode-test/
+*.vsix
+.env
+CodeAir
+.DS_Store
+dist
