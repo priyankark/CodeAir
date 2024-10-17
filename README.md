@@ -32,7 +32,7 @@ AirCodum is your intelligent smartphone companion for Visual Studio Code! AirCod
 2.) [VS Code Marketplace Link](https://marketplace.visualstudio.com/items?itemName=priyankark.aircodum-app)
 
 ### Android App
-Download the "AirCodum" app from the Android Play Store from [Google Play Store link](https://play.google.com/store/apps/details?id=com.aircodum&hl=en)
+Download the "AirCodum" app from the Android Play Store from [Google Play Store link](https://play.google.com/store/apps/details?id=com.codeair)
 
 ## Demo
 Check out this demo to understand how to use AirCodum: [AirCodum YouTube Demo](https://www.youtube.com/watch?v=DRAhUfEvJDs&t=167s)
