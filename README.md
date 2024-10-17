@@ -25,6 +25,10 @@ AirCodum is your intelligent smartphone companion for Visual Studio Code! AirCod
 4. Click "Install"
 5. Reload VS Code when prompted
 
+### Links:
+1.) [Extension in Open VSX](https://open-vsx.org/extension/priyankark/codeair-app)
+2.) [VS Code Marketplace Link](https://marketplace.visualstudio.com/items?itemName=priyankark.codeair-app)
+
 ### Android App
 Download the "AirCodum" app from the Android Play Store from [Google Play Store link](https://play.google.com/store/apps/details?id=com.aircodum&hl=en)
 
