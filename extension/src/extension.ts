@@ -1,5 +1,5 @@
 /**
- * CodeAir: Smartphone powered Remote Control for VS Code
+ * AirCodum: Smartphone powered Remote Control for VS Code
  * Copyright (C) 2024 Priyankar Kumar
  *
  * This program is free software: you can redistribute it and/or modify
@@ -28,12 +28,12 @@ import { startServer, stopServer } from "./server";
 import { createWebviewPanel } from "./webview";
 
 export function activate(context: vscode.ExtensionContext) {
-  console.log("CodeAir Extension is now active!");
+  console.log("AirCodum Extension is now active!");
 
   const startServerAndWebview = async () => {
     if (store.getState().server.isRunning) {
       vscode.window.showInformationMessage(
-        "CodeAir server is already running."
+        "AirCodum server is already running."
       );
       return;
     }

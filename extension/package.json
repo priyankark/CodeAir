@@ -1,10 +1,10 @@
 {
-  "name": "codeair-app",
-  "displayName": "CodeAir: Smartphone based Remote Control for VS Code",
+  "name": "aircodum-app",
+  "displayName": "AirCodum: Smartphone based Remote Control for VS Code",
   "description": "Smartphone based Remote Control for VS Code. Control IDE actions, send files and images, get AI assistance and more, right from your smartphone.",
   "version": "0.0.10",
   "publisher": "priyankark",
-  "repository": "https://github.com/priyankark/CodeAir",
+  "repository": "https://github.com/priyankark/AirCodum",
   "engines": {
     "vscode": "^1.74.0"
   },
@@ -13,22 +13,22 @@
     "Chat",
     "Other"
   ],
-  "icon": "assets/CodeAir.png",
+  "icon": "assets/AirCodum.png",
   "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
         "command": "extension.startCodeAirServer",
-        "title": "Start CodeAir Server"
+        "title": "Start AirCodum Server"
       },
       {
         "command": "extension.stopCodeAirServer",
-        "title": "Stop CodeAir Server"
+        "title": "Stop AirCodum Server"
       },
       {
         "command": "extension.openCodeAirWebview",
-        "title": "Open CodeAir Webview"
+        "title": "Open AirCodum Webview"
       }
     ]
   },

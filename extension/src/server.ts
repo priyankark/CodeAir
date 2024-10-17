@@ -9,7 +9,7 @@ export async function startServer(address: string): Promise<void> {
   const { server } = store.getState();
 
   if (server.isRunning) {
-    vscode.window.showInformationMessage("CodeAir server is already running.");
+    vscode.window.showInformationMessage("AirCodum server is already running.");
     return;
   }
 
@@ -20,9 +20,9 @@ export async function startServer(address: string): Promise<void> {
 
   return new Promise((resolve, reject) => {
     httpServer.listen(server.port, address, () => {
-      console.log(`CodeAir server started at http://${address}:${server.port}`);
+      console.log(`AirCodum server started at http://${address}:${server.port}`);
       vscode.window.showInformationMessage(
-        `CodeAir server started at http://${address}:${server.port}`
+        `AirCodum server started at http://${address}:${server.port}`
       );
       setServerRunning(true);
       setWebSocketServer(wss);
@@ -48,5 +48,5 @@ export function stopServer(): void {
     webview.panel.dispose();
   }
 
-  vscode.window.showInformationMessage("CodeAir server stopped");
+  vscode.window.showInformationMessage("AirCodum server stopped");
 }

@@ -9,7 +9,7 @@ function getWebviewContent(): string {
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CodeAir</title>
+    <title>AirCodum</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -105,7 +105,7 @@ function getWebviewContent(): string {
   </head>
   <body>
     <div class="container">
-        <div class="logo">CodeAir</div>
+        <div class="logo">AirCodum</div>
         <div class="tagline">Airdrop for your Code</div>
         
         <div class="status">
@@ -264,8 +264,8 @@ export function createWebviewPanel(
   address: string
 ) {
   const panel = vscode.window.createWebviewPanel(
-    "CodeAir",
-    "CodeAir",
+    "AirCodum",
+    "AirCodum",
     vscode.ViewColumn.Two,
     {
       enableScripts: true,
