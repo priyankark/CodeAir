@@ -1,5 +1,3 @@
-### **Notice:** Due to a 'Cease and Desist' letter from an entity called codeair.in that wants to claim CodeAir as a TM (that by the way had no legal grounding), the author has decided to change the name of the project from 'CodeAir' to 'AirCodum.'
-
 # AirCodum: Smartphone powered Remote Control for VS Code
 
 ## Table of Contents
@@ -177,3 +175,6 @@ Following is not an exhaustive list:
 - For urgent requests, you may email the developer at priyankar.kumar98@gmail.com
 
 Thank you for using AirCodum - happy coding!
+
+### **Notice** 
+Due to a 'Cease and Desist' letter from an entity called codeair.in that wants to claim CodeAir as a TM (that by the way had no legal grounding: they don't own this TM), the author has decided to change the name of the project from 'CodeAir' to 'AirCodum' to avoid further drama.
