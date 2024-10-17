@@ -1,3 +1,5 @@
+### **Notice:** Due to a 'Cease and Desist' letter from an entity called codeair.in that wants to claim CodeAir as a TM (that by the way had no legal grounding), the author has decided to change the name of the project from 'CodeAir' to 'AirCodum.'
+
 # AirCodum: Smartphone powered Remote Control for VS Code
 
 ## Table of Contents
@@ -25,9 +27,9 @@ AirCodum is your intelligent smartphone companion for Visual Studio Code! AirCod
 4. Click "Install"
 5. Reload VS Code when prompted
 
-### Links:
-1.) [Extension in Open VSX](https://open-vsx.org/extension/priyankark/codeair-app)
-2.) [VS Code Marketplace Link](https://marketplace.visualstudio.com/items?itemName=priyankark.codeair-app)
+### Links
+1.) [Extension in Open VSX](https://open-vsx.org/extension/priyankark/aircodum-app)
+2.) [VS Code Marketplace Link](https://marketplace.visualstudio.com/items?itemName=priyankark.aircodum-app)
 
 ### Android App
 Download the "AirCodum" app from the Android Play Store from [Google Play Store link](https://play.google.com/store/apps/details?id=com.aircodum&hl=en)
