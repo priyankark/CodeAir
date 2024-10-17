@@ -1,3 +1,4 @@
+## NOTICE: Name change in progress
 # CodeAir: Smartphone powered Remote Control for VS Code
 
 ## Table of Contents
