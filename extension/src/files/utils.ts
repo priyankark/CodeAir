@@ -10,7 +10,7 @@ import { transcribeImage } from "../ai/api";
 
 /**
  * Save the incoming files and commands to the workspace.
- * Creates a CodeAir folder in the workspace if it doesn't exist.
+ * Creates a AirCodum folder in the workspace if it doesn't exist.
  * Stores incoming files in this folder.
  * @param fileBuffer
  * @returns
@@ -26,7 +26,7 @@ export async function saveFile(fileBuffer: Buffer): Promise<{
     throw new Error("No workspace folder open");
   }
 
-  const codeDropFolder = path.join(workspaceFolder.uri.fsPath, "CodeAir");
+  const codeDropFolder = path.join(workspaceFolder.uri.fsPath, "AirCodum");
   if (!fs.existsSync(codeDropFolder)) {
     fs.mkdirSync(codeDropFolder);
   }
