@@ -2,7 +2,7 @@
   "name": "aircodum-app",
   "displayName": "AirCodum: Smartphone based Remote Control for VS Code",
   "description": "Smartphone based Remote Control for VS Code. Control IDE actions, send files and images, get AI assistance and more, right from your smartphone.",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "publisher": "priyankark",
   "repository": "https://github.com/priyankark/AirCodum",
   "engines": {
@@ -19,15 +19,15 @@
   "contributes": {
     "commands": [
       {
-        "command": "extension.startCodeAirServer",
+        "command": "extension.startAirCodumServer",
         "title": "Start AirCodum Server"
       },
       {
-        "command": "extension.stopCodeAirServer",
+        "command": "extension.stopAirCodumServer",
         "title": "Stop AirCodum Server"
       },
       {
-        "command": "extension.openCodeAirWebview",
+        "command": "extension.openAirCodumWebview",
         "title": "Open AirCodum Webview"
       }
     ]

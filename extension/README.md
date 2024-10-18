@@ -12,8 +12,6 @@
 9. [Troubleshooting](#troubleshooting)
 10. [Contributing](#contributing)
 
-**Note:** This project was earlier called "CodeAir" and is now being renamed to "AirCodum" in response to other entities owning/in-the-process-of-owning the TradeMark.
-
 ## Introduction
 
 AirCodum is your intelligent smartphone companion for Visual Studio Code! AirCodum bridges the gap between your devices and your development environment, offering seamless file transfer, AI-powered coding assistance, and intuitive commanding over your VS Code instance, right from your smartphone!
@@ -28,10 +26,10 @@ AirCodum is your intelligent smartphone companion for Visual Studio Code! AirCod
 5. Reload VS Code when prompted
 
 ### Android App
-Download the "AirCodum" app from the Android Play Store from [Google Play Store link](https://play.google.com/store/apps/details?id=com.aircodum&hl=en)
+Download the "AirCodum" app from the Android Play Store from [Google Play Store link](https://play.google.com/store/apps/details?id=com.codeair&hl=en)
 
 ## Demo
-Check out this demo to understand how to use AirCodum: [AirCodum YouTube Demo](https://www.youtube.com/watch?v=DRAhUfEvJDs&t=167s)
+Check out this demo to understand how to use AirCodum: [AirCodum YouTube Demo](https://www.youtube.com/watch?v=HXtH_NYY2Lc&t=98s)
 
 ## Configuration
 
@@ -171,5 +169,8 @@ Following is not an exhaustive list:
 ## Support
 - Please raise issues on the associated GitHub repo for triaging.
 - For urgent requests, you may email the developer at priyankar.kumar98@gmail.com
+
+**Note:** 
+This project was earlier called "CodeAir" and is now being renamed to "AirCodum" in response to other entities owning/in-the-process-of-owning the TradeMark.
 
 Thank you for using AirCodum - happy coding!

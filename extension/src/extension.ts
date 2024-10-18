@@ -46,12 +46,12 @@ export function activate(context: vscode.ExtensionContext) {
   };
 
   const startServerCommand = vscode.commands.registerCommand(
-    "extension.startCodeAirServer",
+    "extension.startAirCodumServer",
     startServerAndWebview
   );
 
   const openWebViewCommand = vscode.commands.registerCommand(
-    "extension.openCodeAirWebview",
+    "extension.openAirCodumWebview",
     () => {
       const { webview, server } = store.getState();
       if (webview.panel) {
@@ -67,7 +67,7 @@ export function activate(context: vscode.ExtensionContext) {
   );
 
   const stopServerCommand = vscode.commands.registerCommand(
-    "extension.stopCodeAirServer",
+    "extension.stopAirCodumServer",
     stopServer
   );
 
